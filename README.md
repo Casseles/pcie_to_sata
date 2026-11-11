@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# pcie_to_sata
-PCB Convertisseur PCIe vers 4 ports SATA. Design KiCAD. 
-=======
 # 4-Layer PCIe-to-SATA Adapter (Marvell 88SE9215).
 
 ![3D Top View](docs/images/top_raytracing.png)
@@ -93,4 +89,3 @@ It would be wise to also rethink the architecture around the connectors so that 
 ## 8. Licence
 
 Distributed under the MIT License. See LICENSE for more information.
->>>>>>> master
