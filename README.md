@@ -1,7 +1,7 @@
 # 4-Layer PCIe-to-SATA Adapter (Marvell 88SE9215).
 
 ![3D Top View](docs/images/top_ray_tracing.png)
-*Rendu 3D face supérieure (KiCad Raytracing)*
+*3D rendering top side (KiCad Raytracing)*
 
 ---
 
@@ -38,7 +38,7 @@ I designed everything so it can be made with **JLCPCB SMT Assembly** but the pri
    │ DC-DC Bucks   │
    │ 1.8V & 1.0V   │
    └───────────────┘
-text```
+```
 
 ## 3. Hardware Design & Signal Integrity
 
