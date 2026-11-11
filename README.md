@@ -1,6 +1,6 @@
 # 4-Layer PCIe-to-SATA Adapter (Marvell 88SE9215).
 
-![3D Top View](docs/images/top_ray_tracing.png)
+![3D Top View](docs/images/top_raytracing.png)
 *3D rendering top side (KiCad Raytracing)*
 
 ---
@@ -66,14 +66,14 @@ A switching regulator has been used and not an LDO because, to transform a +3V3 
 
 .  
 ├── docs/  
-│   ├── schematic.pdf  
-│   ├── pcb_layout.pdf  
-│   └── images/  
+│  ├── schematic.pdf  
+│  ├── pcb_layout.pdf  
+│  └── images/  
 ├── hardware/  
 └── manufacturing/  
-    ├── gerbers/  
-    ├── bom/  
-    └── cpl/  
+   ├── gerbers/   
+   ├── bom/  
+   └── cpl/  
 
 ## 6. Verification & DRC status
 
