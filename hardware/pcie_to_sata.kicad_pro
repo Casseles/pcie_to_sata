@@ -561,15 +561,15 @@
         "pcb_color": "rgb(28, 2, 255)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.15,
+        "diff_pair_gap": 0.16,
+        "diff_pair_width": 0.1,
         "microvia_diameter": 0.25,
         "microvia_drill": 0.1,
         "name": "PCIe",
@@ -583,8 +583,8 @@
       },
       {
         "clearance": 0.05,
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.15,
+        "diff_pair_gap": 0.16,
+        "diff_pair_width": 0.1,
         "microvia_diameter": 0.25,
         "microvia_drill": 0.1,
         "name": "SATA",
@@ -598,8 +598,8 @@
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.15,
+        "diff_pair_gap": 0.16,
+        "diff_pair_width": 0.1,
         "microvia_diameter": 0.25,
         "microvia_drill": 0.1,
         "name": "SPI",
@@ -622,22 +622,6 @@
       "+1V8_unf": "rgb(62, 255, 19)",
       "+3V3": "rgb(255, 0, 9)",
       "+3V3_unf": "rgb(255, 0, 9)",
-      "/Chip/S_RXN0": "rgb(255, 0, 232)",
-      "/Chip/S_RXN1": "rgb(255, 0, 232)",
-      "/Chip/S_RXN2": "rgb(255, 0, 232)",
-      "/Chip/S_RXN3": "rgb(255, 0, 232)",
-      "/Chip/S_RXP0": "rgb(255, 0, 232)",
-      "/Chip/S_RXP1": "rgb(255, 0, 232)",
-      "/Chip/S_RXP2": "rgb(255, 0, 232)",
-      "/Chip/S_RXP3": "rgb(255, 0, 232)",
-      "/Chip/S_TXN0": "rgb(255, 0, 232)",
-      "/Chip/S_TXN1": "rgb(255, 0, 232)",
-      "/Chip/S_TXN2": "rgb(255, 0, 232)",
-      "/Chip/S_TXN3": "rgb(255, 0, 232)",
-      "/Chip/S_TXP0": "rgb(255, 0, 232)",
-      "/Chip/S_TXP1": "rgb(255, 0, 232)",
-      "/Chip/S_TXP2": "rgb(255, 0, 232)",
-      "/Chip/S_TXP3": "rgb(255, 0, 232)",
       "GNDREF": "rgb(28, 2, 255)"
     },
     "netclass_assignments": {},
@@ -708,123 +692,123 @@
       },
       {
         "netclass": "SATA",
-        "pattern": "/Chip/S_RXP3"
+        "pattern": "/pcie_to_sata/S_RXP3"
       },
       {
         "netclass": "SATA",
-        "pattern": "/Chip/S_RXN3"
+        "pattern": "/pcie_to_sata/S_RXN3"
       },
       {
         "netclass": "SATA",
-        "pattern": "/Chip/S_TXN3"
+        "pattern": "/pcie_to_sata/S_TXN3"
       },
       {
         "netclass": "SATA",
-        "pattern": "/Chip/S_TXP3"
+        "pattern": "/pcie_to_sata/S_TXP3"
       },
       {
         "netclass": "SATA",
-        "pattern": "/Chip/S_RXN2"
+        "pattern": "/pcie_to_sata/S_RXN2"
       },
       {
         "netclass": "SATA",
-        "pattern": "/Chip/S_RXP2"
+        "pattern": "/pcie_to_sata/S_RXP2"
       },
       {
         "netclass": "SATA",
-        "pattern": "/Chip/S_TXN2"
+        "pattern": "/pcie_to_sata/S_TXN2"
       },
       {
         "netclass": "SATA",
-        "pattern": "/Chip/S_TXP2"
+        "pattern": "/pcie_to_sata/S_TXP2"
       },
       {
         "netclass": "SATA",
-        "pattern": "/Chip/S_RXP1"
+        "pattern": "/pcie_to_sata/S_RXP1"
       },
       {
         "netclass": "SATA",
-        "pattern": "/Chip/S_RXN1"
+        "pattern": "/pcie_to_sata/S_RXN1"
       },
       {
         "netclass": "SATA",
-        "pattern": "/Chip/S_TXN1"
+        "pattern": "/pcie_to_sata/S_TXN1"
       },
       {
         "netclass": "SATA",
-        "pattern": "/Chip/S_TXP1"
+        "pattern": "/pcie_to_sata/S_TXP1"
       },
       {
         "netclass": "SATA",
-        "pattern": "/Chip/S_RXN0"
+        "pattern": "/pcie_to_sata/S_RXN0"
       },
       {
         "netclass": "SATA",
-        "pattern": "/Chip/S_RXP0"
+        "pattern": "/pcie_to_sata/S_RXP0"
       },
       {
         "netclass": "SATA",
-        "pattern": "/Chip/S_TXN0"
+        "pattern": "/pcie_to_sata/S_TXN0"
       },
       {
         "netclass": "SATA",
-        "pattern": "/Chip/S_TXP0"
+        "pattern": "/pcie_to_sata/S_TXP0"
       },
       {
         "netclass": "PCIe",
-        "pattern": "/Chip/PTX_0N"
+        "pattern": "/pcie_to_sata/PTX_0N"
       },
       {
         "netclass": "PCIe",
-        "pattern": "/Chip/PTX_0P"
+        "pattern": "/pcie_to_sata/PTX_0P"
       },
       {
         "netclass": "PCIe",
-        "pattern": "/Chip/PRX_0N"
+        "pattern": "/pcie_to_sata/PRX_0N"
       },
       {
         "netclass": "PCIe",
-        "pattern": "/Chip/PRX_0P"
+        "pattern": "/pcie_to_sata/PRX_0P"
       },
       {
         "netclass": "SPI",
-        "pattern": "/Chip/SPI_CLK"
+        "pattern": "/pcie_to_sata/SPI_CLK"
       },
       {
         "netclass": "SPI",
-        "pattern": "/Chip/SPI_DO"
+        "pattern": "/pcie_to_sata/SPI_DO"
       },
       {
         "netclass": "SPI",
-        "pattern": "/Chip/SPI_DI"
+        "pattern": "/pcie_to_sata/SPI_DI"
       },
       {
         "netclass": "SPI",
-        "pattern": "/Chip/SPI_CS"
+        "pattern": "/pcie_to_sata/SPI_CS"
       },
       {
         "netclass": "PCIe",
-        "pattern": "/Chip/HSIN"
+        "pattern": "/pcie_to_sata/HSIN"
       },
       {
         "netclass": "PCIe",
-        "pattern": "/Chip/HSIP"
+        "pattern": "/pcie_to_sata/HSIP"
       },
       {
         "netclass": "PCIe",
-        "pattern": "/Chip/PERST_N"
+        "pattern": "/pcie_to_sata/PERST_N"
       },
       {
         "netclass": "PCIe",
-        "pattern": "/Chip/PCLKP"
+        "pattern": "/pcie_to_sata/PCLKP"
       },
       {
         "netclass": "PCIe",
-        "pattern": "/Chip/PCLKN"
+        "pattern": "/pcie_to_sata/PCLKN"
       },
       {
         "netclass": "PCIe",
-        "pattern": "/Chip/WAKE_N"
+        "pattern": "/pcie_to_sata/WAKE_N"
       },
       {
         "netclass": "GND",
@@ -837,6 +821,70 @@
       {
         "netclass": "+3V3",
         "pattern": "+3V3_unf"
+      },
+      {
+        "netclass": "SATA",
+        "pattern": "/pcie_to_sata/S_RXP0_"
+      },
+      {
+        "netclass": "SATA",
+        "pattern": "/pcie_to_sata/S_RXP1_"
+      },
+      {
+        "netclass": "SATA",
+        "pattern": "/pcie_to_sata/S_RXP2_"
+      },
+      {
+        "netclass": "SATA",
+        "pattern": "/pcie_to_sata/S_RXP3_"
+      },
+      {
+        "netclass": "SATA",
+        "pattern": "/pcie_to_sata/S_RXN0_"
+      },
+      {
+        "netclass": "SATA",
+        "pattern": "/pcie_to_sata/S_RXN1_"
+      },
+      {
+        "netclass": "SATA",
+        "pattern": "/pcie_to_sata/S_RXN2_"
+      },
+      {
+        "netclass": "SATA",
+        "pattern": "/pcie_to_sata/S_RXN3_"
+      },
+      {
+        "netclass": "SATA",
+        "pattern": "/pcie_to_sata/S_TXN0_"
+      },
+      {
+        "netclass": "SATA",
+        "pattern": "/pcie_to_sata/S_TXN1_"
+      },
+      {
+        "netclass": "SATA",
+        "pattern": "/pcie_to_sata/S_TXN2_"
+      },
+      {
+        "netclass": "SATA",
+        "pattern": "/pcie_to_sata/S_TXN3_"
+      },
+      {
+        "netclass": "SATA",
+        "pattern": "/pcie_to_sata/S_TXP0_"
+      },
+      {
+        "netclass": "SATA",
+        "pattern": "/pcie_to_sata/S_TXP1_"
+      },
+      {
+        "netclass": "SATA",
+        "pattern": "/pcie_to_sata/S_TXP2_"
+      },
+      {
+        "netclass": "SATA",
+        "pattern": "/pcie_to_sata/S_TXP3_"
       }
     ]
   },
@@ -849,7 +897,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "pcie_to_sata"
   },
   "schematic": {
     "annotate_start_num": 0,

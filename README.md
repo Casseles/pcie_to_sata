@@ -48,12 +48,11 @@ Designed for a 4-layer PCB stack-up :
 - Layer 1 : High-speed differential pairs (PCIe & SATA) + buck regulator's components.
 - Layer 2 : Ground plane.
 - Layer 3 : Power planes (+3V3 / +1V8 / +1V0).
-- Layer 4 : Decoupling capacitors, simple routing.
-- 
+- Layer 4 : Decoupling capacitors, simple routing. 
 
 ### Power Distribution Network
 
-- Dual Buck converter (MP2122) supplying power for core (+1V0) and I/O (+1V8).
+- Dual Buck converter (MP2122) supplying power for core (+1V0) and I/O (+1V8).  
 A switching regulator has been used and not an LDO because, to transform a +3V3 into a +1V0, and LDO would dissipate all additionnal voltage into heat, which could be dangerous.
 - Low ESR ceramic decoupling capacitors placed on bottom layer to minimize loop inductance. 
 
@@ -65,16 +64,16 @@ A switching regulator has been used and not an LDO because, to transform a +3V3 
 
 ## 5. Repository Structure
 
-.
-├── docs/ 
-│   ├── schematic.pdf
-│   ├── pcb_layout.pdf
-│   └── images/
-├── hardware/ 
-└── manufacturing/ 
-    ├── gerbers/
-    ├── bom/
-    └── cpl/
+.  
+├── docs/  
+│   ├── schematic.pdf  
+│   ├── pcb_layout.pdf  
+│   └── images/  
+├── hardware/  
+└── manufacturing/  
+    ├── gerbers/  
+    ├── bom/  
+    └── cpl/  
 
 ## 6. Verification & DRC status
 
