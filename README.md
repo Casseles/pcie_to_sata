@@ -55,6 +55,16 @@ Designed for a 4-layer PCB stack-up :
 - Dual Buck converter (MP2122) supplying power for core (+1V0) and I/O (+1V8).  
 A switching regulator has been used and not an LDO because, to transform a +3V3 into a +1V0, and LDO would dissipate all additionnal voltage into heat, which could be dangerous.
 - Low ESR ceramic decoupling capacitors placed on bottom layer to minimize loop inductance. 
+To calculate inductances and resistances around the Buck converter, I followed the MP2122 datasheet.  
+
+### Differential pair
+
+To calculate width of the traces inside a differential pair, I used Saturn PCB Toolkit.  
+Based on FR4 TG135 caracteristics (JLCPCB basic) and aiming for a 100 Ohms impedance for both SATA and PCIe differential pairs,  
+I found a spacing between traces of 0,13mm and a width of 0,09mm.  
+There are 3 differential pairs on PCIe : PRX, PTX and CLK.
+For the first two, as the pins on the chip were inverted compared to the PCIe port, I switched them.  
+The PCIe 2.0 specifications indicate a lane polarity that permits this kind of switch.  
 
 ## 4. Design for Manufacturing
 
